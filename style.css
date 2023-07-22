@@ -7,15 +7,7 @@ body{
     overflow-x: hidden;
 }
 
-ol {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    height:100vh;
-    gap:30px;
-    background-color: red;
 
-}
 
 li {
     list-style-type: none;
@@ -52,7 +44,7 @@ li {
 .image{
     background-image: url("https://pk.khaadi.com/media/catalog/product/e/e/eet23337_blue_2.jpg?width=300&height=&canvas=300:&quality=95&bg-color=255,255,255&fit=bounds");
     height:500px;
-    width:auto;
+    width:100%;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -70,4 +62,51 @@ li {
 }
 .abc{
     position: relative;
+}
+.hero-img{
+    background-image: url("https://pk.khaadi.com/media/wysiwyg/khaadi/01-01-main-banners/June-2023/PK/Desk-Web-Banner-getsetgo-0627-1920x825.jpg");
+    height:30vh;
+    background-size: cover;
+    background-position: center;
+
+}
+.butt{
+    padding: 15px 25px;
+    background-color: transparent;
+    border: none;
+}
+
+.boxes{
+    background-color: black;
+    height: 100vh;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
+.box{
+    height: 200px;
+    width:200px;
+    
+}
+
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color:yellow;
+}
+.box3{
+    background-color: green;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: black;
+    color:white
+}
+.footer{
+    height:100px;
+    background-color: lightgray!important;
 }
