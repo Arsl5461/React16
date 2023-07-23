@@ -12,6 +12,52 @@ body{
 li {
     list-style-type: none;
 }
+.image-div{
+    background-image: url("https://khaadi.com/media/wysiwyg/khaadi/01-01-landingpage/Country_Landing-0602-1920x1080.jpg");
+    height:100vh;
+    width:100%;
+}
+.main{
+    position:relative
+}
+.main-div{
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    height: 100vh;
+    flex-direction: column;
+    margin-right: 100px;
+    gap:20px
+}
+a{
+    text-decoration: none;
+    color:white
+}
+a:hover{
+    color: black !important;
+}
+.main-div select{
+    padding: 10px 55px;
+}
+.submit{
+    background-color: black;
+    padding:10px 70px;
+    border:1px solid black;
+    border-radius: 5px;
+}
+.submit:hover{
+    background-color: white;
+    color: black !important;
+}
+
+
+
+
+
+
+
+
+
 
 /* .list1 {
     position: absolute;
