@@ -6,10 +6,14 @@
 body{
     overflow-x: hidden;
 }
+.countryList{
+    color:red;
+    background-color: black;
+    text-align: center;
+}
 
 
-
-li {
+/* li {
     list-style-type: none;
 }
 .image-div{
@@ -48,7 +52,7 @@ a:hover{
 .submit:hover{
     background-color: white;
     color: black !important;
-}
+} */
 
 
 
